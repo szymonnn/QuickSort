@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="16dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Wylosowane liczby"
+        android:gravity="center"/>
+    <TextView
+        android:id="@+id/randomNumbersTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1 3 6 89 90 56 9 6 98 56 8 998 98 98 98 98 98 98 98 98 98 "
+        android:textSize="20sp"
+        android:layout_marginTop="8dp"
+        android:lines="3"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Posortowane liczby"
+        android:gravity="center"
+        android:layout_marginTop="32dp"/>
+    <TextView
+        android:id="@+id/sortedNumbersTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1 3 6 89 90 56 9 6 98 56 8 998 98 98 98 98 98 98 98 98 98 "
+        android:textSize="20sp"
+        android:layout_marginTop="8dp"
+        android:lines="3"/>
+
+    <Button
+        android:id="@+id/generateButton"
+        android:text="Losuj nowe liczby"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"/>
+
+    <Button
+        android:id="@+id/sortButton"
+        android:text="Sortuj"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
